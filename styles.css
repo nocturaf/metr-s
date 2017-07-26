@@ -1,0 +1,13 @@
+body {
+	margin-top:100px;
+	background-color: #212121;
+	color:#fff;
+}
+
+form {
+	margin-top:30px;
+}
+
+#result {
+	display:none;
+}

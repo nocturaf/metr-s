@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Metr-s</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+	<div class="container">	
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+			<h1 class="display-4 text-center">Metr-s</h1>
+			<form>
+				<div class="form-group">
+					<input id="metersInput" type="number" name="val" class="form-control form-control-lg" placeholder="Meters Value...">
+				</div>
+			</form>
+			<div id="result">
+				<div class="card card-primary mb-2">
+					<div class="card-block">
+						<h4>mm:</h4>
+						<div id="mmResult"></div>
+					</div>
+				</div>
+				<div class="card card-danger mb-2">
+					<div class="card-block">
+						<h4>cm:</h4>
+						<div id="cmResult"></div>
+					</div>
+				</div>
+				<div class="card card-success mb-2">
+					<div class="card-block">
+						<h4>dm:</h4>
+						<div id="dmResult"></div>
+					</div>
+				</div>
+				<div class="card card-info mb-2">
+					<div class="card-block">
+						<h4>dam:</h4>
+						<div id="damResult"></div>
+					</div>
+				</div>
+				<div class="card card-warning mb-2">
+					<div class="card-block">
+						<h4>hm:</h4>
+						<div id="hmResult"></div>
+					</div>
+				</div>
+				<div class="card card-success mb-5" style="background-color:#1A237E;border: 1px solid #1A237E">
+					<div class="card-block">
+						<h4>km:</h4>
+						<div id="kmResult"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
